@@ -25,7 +25,7 @@ exe = EXE(
     pyz,
     a.scripts,
     [],
-    exclude_binaries=False,
+    exclude_binaries=True,
     name='sound_record',
     debug=False,
     bootloader_ignore_signals=False,
@@ -47,4 +47,10 @@ coll = COLLECT(
     upx=True,
     upx_exclude=[],
     name='sound_record',
+)
+app = BUNDLE(
+    coll,
+    name='sound_record.app',
+    icon=None,
+    bundle_identifier=None,
 )
