@@ -1,5 +1,5 @@
 ('/Users/chanyoungpark/Desktop/VoiceRecorder/build/sound_record/sound_record',
- True,
+ False,
  False,
  True,
  None,
@@ -62,7 +62,7 @@
  [],
  False,
  False,
- 1686007620,
- [('run',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/PyInstaller/bootloader/Darwin-64bit/run',
+ 1686007735,
+ [('runw',
+   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/PyInstaller/bootloader/Darwin-64bit/runw',
    'EXECUTABLE')])
